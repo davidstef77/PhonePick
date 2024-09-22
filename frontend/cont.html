@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cont</title>
+  <link rel="stylesheet" href="cont.css">
+</head>
+<body>
+  <div id="auth">
+    <div id="register-form">
+      <h2>Înregistrare</h2>
+      <input type="text" id="reg-name" placeholder="Nume" required>
+      <input type="date" id="birth-date" placeholder="Data nașterii" required>
+      <input type="password" id="reg-password" placeholder="Parolă" required>
+      <button id="register-btn">Înregistrare</button>
+    </div>
+
+    <div id="login-form" style="display: none;">
+      <h2>Autentificare</h2>
+      <input type="text" id="login-name" placeholder="Nume" required>
+      <input type="password" id="login-password" placeholder="Parolă" required>
+      <button id="login-btn">Autentificare</button>
+    </div>
+
+    <button id="toggle-btn">Comută la {{toggleText}}</button>
+  </div>
+  <script src="cont.js"></script>
+</body>
+</html>

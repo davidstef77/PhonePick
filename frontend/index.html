@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhonePick</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">PhonePick</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="cont.html"><span class="material-icons">account_circle</span>Contul meu</a></li>
+            <li><a href="favorite.html"><span class="material-icons">favorite</span>Favorite</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Gaseste-ti telefonul potrivit</h1>
+            <p>Exploreaza cele mai bune variante</p>
+            <a href="phones.html" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Despre Noi Section -->
+<section class="about-us" id="about">
+    <div class="container">
+        <h2>Despre PhonePick</h2>
+        <p>La PhonePick, credem în oferirea celor mai bune smartphone-uri la prețuri imbatabile. Misiunea noastră este să te conectăm cu cele mai avansate tehnologii mobile, selectate special pentru a-ți satisface nevoile. Colaborăm cu branduri de top pentru a-ți aduce cele mai noi lansări, oferte exclusive și suport pentru clienți de calitate superioară.</p>
+
+        <div class="about-features">
+            <div class="feature">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>Livrare Rapidă</h3>
+                <p>Primește telefonul tău preferat direct la ușa ta, rapid și în siguranță.</p>
+            </div>
+
+            <div class="feature">
+                <i class="fas fa-thumbs-up"></i>
+                <h3>Branduri de Încredere</h3>
+                <p>Colaborăm doar cu branduri de top pentru a ne asigura că oferim produse de calitate superioară.</p>
+            </div>
+
+            <div class="feature">
+                <i class="fas fa-headset"></i>
+                <h3>Suport Clienți Non-Stop</h3>
+                <p>Echipa noastră de suport este disponibilă 24/7 pentru a te ajuta cu orice întrebare sau nelămurire.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="container">
+        <h2>Contactează-ne</h2>
+        <p>Dacă ai întrebări sau nelămuriri, nu ezita să ne scrii!</p>
+        <form id="contact-form" action="https://formspree.io/f/mgvwjzog" method="POST">
+            <input type="text" name="name" placeholder="Numele tău" required>
+            <input type="email" name="email" placeholder="Emailul tău" required>
+            <textarea name="message" placeholder="Mesajul tău" required></textarea>
+            <button type="submit">Trimite</button>
+        </form>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

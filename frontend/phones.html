@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomandări Telefoane</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="phones.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">PhonePick</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="cont.html"><span class="material-icons">account_circle</span>Contul meu</a></li>
+            <li><a href="favorite.html"><span class="material-icons">favorite</span>Favorite</a></li>
+        </ul>
+    </nav>
+
+    <!-- Search Bar -->
+    <section class="search-bar">
+        <input type="text" id="search" placeholder="Caută un telefon...">
+    </section>
+
+    <!-- Phone Brands Section -->
+    <section class="phone-brands">
+        <!-- Huawei -->
+        <div class="brand">
+            <h2>Huawei</h2>
+            <div class="phones">
+                <div class="phone-card">
+                    <h3>Huawei Mate 50 Pro (Cel mai bun)</h3>
+                    <img src="alt/Huawei-Mate-50-Pro_featured-image-packshot-review-removebg-preview.png" alt="Huawei Mate 50 Pro">
+                    <ul class="specs">
+                        <li>Procesor: Snapdragon 8+ Gen 1</li>
+                        <li>RAM: 8GB</li>
+                        <li>Stocare: 256GB/512GB</li>
+                        <li>Display: OLED, 6.74", 120Hz</li>
+                        <li>Baterie: 4700 mAh, Fast charging 66W</li>
+                        <li>Camera: 50MP principală, 13MP ultrawide</li>
+                    </ul>
+                    <button><a href="#">Magazin 1</a></button>
+                    <button><a href="#">Magazin 2</a></button>
+                    <button class="favorite-button" onclick="toggleFavorite(this)">
+                        <span class="material-icons">favorite_border</span>
+                        Adaugă la favorite
+                    </button>
+                </div>
+                <div class="phone-card">
+                    <h3>Huawei P30 Pro (Preț-Calitate)</h3>
+                    <img src="alt/huawei-p30-pro-6-47-inch-8gb-256gb-smartphone-breathing-crystal-1574132283313-removebg.png" alt="Huawei P30 Pro">
+                    <ul class="specs">
+                        <li>Procesor: Kirin 980</li>
+                        <li>RAM: 8GB</li>
+                        <li>Stocare: 128GB/256GB/512GB</li>
+                        <li>Display: OLED, 6.47", 60Hz</li>
+                        <li>Baterie: 4200 mAh, Fast charging 40W</li>
+                        <li>Camera: 40MP principală, 20MP ultrawide</li>
+                    </ul>
+                    <button><a href="#">Magazin 1</a></button>
+                    <button><a href="#">Magazin 2</a></button>
+                    <button class="favorite-button" onclick="toggleFavorite(this)">
+                        <span class="material-icons">favorite_border</span>
+                        Adaugă la favorite
+                    </button>
+                </div>
+                <div class="phone-card">
+                    <h3>Huawei Y6p (Buget)</h3>
+                    <img src="alt/image_template_2_-_2020-06-22t120303.780-removebg-preview.png" alt="Huawei Y6p">
+                    <ul class="specs">
+                        <li>Procesor: Mediatek MT6762R</li>
+                        <li>RAM: 3GB</li>
+                        <li>Stocare: 64GB</li>
+                        <li>Display: IPS LCD, 6.3", 60Hz</li>
+                        <li>Baterie: 5000 mAh</li>
+                        <li>Camera: 13MP principală</li>
+                    </ul>
+                    <button><a href="#">Magazin 1</a></button>
+                    <button><a href="#">Magazin 2</a></button>
+                    <button class="favorite-button" onclick="toggleFavorite(this)">
+                        <span class="material-icons">favorite_border</span>
+                        Adaugă la favorite
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- iPhone -->
+        <div class="brand">
+            <h2>iPhone</h2>
+            <div class="phones">
+                <div class="phone-card">
+                    <h3>iPhone 14 Pro Max (Cel mai bun)</h3>
+                    <img src="alt/iphone-14-pro-max-deep-purple-removebg-preview.png" alt="iPhone 14 Pro Max">
+                    <ul class="specs">
+                        <li>Procesor: A16 Bionic</li>
+                        <li>RAM: 6GB</li>
+                        <li>Stocare: 128GB/256GB/512GB/1TB</li>
+                        <li>Display: OLED, 6.7", 120Hz</li>
+                        <li>Baterie: 4323 mAh</li>
+                        <li>Camera: 48MP principală, 12MP ultrawide</li>
+                    </ul>
+                    <button><a href="#">Magazin 1</a></button>
+                    <button><a href="#">Magazin 2</a></button>
+                    <button class="favorite-button" onclick="toggleFavorite(this)">
+                        <span class="material-icons">favorite_border</span>
+                        Adaugă la favorite
+                    </button>
+                </div>
+                <div class="phone-card">
+                    <h3>iPhone 13 (Preț-Calitate)</h3>
+                    <img src="alt/Telefon_APPLE_iPhone_13_5G_128GB_Midnight_4_-removebg-preview.png" alt="iPhone 13">
+                    <ul class="specs">
+                        <li>Procesor: A15 Bionic</li>
+                        <li>RAM: 4GB</li>
+                        <li>Stocare: 128GB/256GB/512GB</li>
+                        <li>Display: OLED, 6.1", 60Hz</li>
+                        <li>Baterie: 3240 mAh</li>
+                        <li>Camera: 12MP principală, 12MP ultrawide</li>
+                    </ul>
+                    <button><a href="#">Magazin 1</a></button>
+                    <button><a href="#">Magazin 2</a></button>
+                    <button class="favorite-button" onclick="toggleFavorite(this)">
+                        <span class="material-icons">favorite_border</span>
+                        Adaugă la favorite
+                    </button>
+                </div>
+                <div class="phone-card">
+                    <h3>iPhone SE (Buget)</h3>
+                    <img src="alt/iphone_se3_midnight_pdp_image_position-1a__wwen_7_1-removebg-preview.png" alt="iPhone SE">
+                    <ul class="specs">
+                        <li>Procesor: A15 Bionic</li>
+                        <li>RAM: 4GB</li>
+                        <li>Stocare: 64GB/128GB/256GB</li>
+                        <li>Display: Retina IPS LCD, 4.7", 60Hz</li>
+                        <li>Baterie: 2018 mAh</li>
+                        <li>Camera: 12MP principală</li>
+                    </ul>
+                    <button><a href="#">Magazin 1</a></button>
+                    <button><a href="#">Magazin 2</a></button>
+                    <button class="favorite-button" onclick="toggleFavorite(this)">
+                        <span class="material-icons">favorite_border</span>
+                        Adaugă la favorite
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Samsung -->
+        <div class="brand">
+            <h2>Samsung</h2>
+            <div class="phones">
+                <div class="phone-card">
+                    <h3>Samsung Galaxy S23 Ultra (Cel mai bun)</h3>
+                    <img src="alt/sg-galaxy-s23-s918-sm-s918bzgbxsp-534857148-removebg-preview.png" alt="Samsung Galaxy S23 Ultra">
+                    <ul class="specs">
+                        <li>Procesor: Snapdragon 8 Gen 2</li>
+                        <li>RAM: 12GB</li>
+                        <li>Stocare: 256GB/512GB/1TB</li>
+                        <li>Display: Dynamic AMOLED, 6.8", 120Hz</li>
+                        <li>Baterie: 5000 mAh, Fast charging 45W</li>
+                        <li>Camera: 200MP principală, 12MP ultrawide</li>
+                    </ul>
+                    <button><a href="#">Magazin 1</a></button>
+                    <button><a href="#">Magazin 2</a></button>
+                    <button class="favorite-button" onclick="toggleFavorite(this)">
+                        <span class="material-icons">favorite_border</span>
+                        Adaugă la favorite
+                    </button>
+                </div>
+                <div class="phone-card">
+                    <h3>Samsung Galaxy A54 (Preț-Calitate)</h3>
+                    <img src="alt/res_8f935a1203d109bcdd68aa63c5fd0715-removebg-preview.png" alt="Samsung Galaxy A54">
+                    <ul class="specs">
+                        <li>Procesor: Exynos 1380</li>
+                        <li>RAM: 8GB</li>
+                        <li>Stocare: 128GB/256GB</li>
+                        <li>Display: Super AMOLED, 6.4", 120Hz</li>
+                        <li>Baterie: 5000 mAh</li>
+                        <li>Camera: 50MP principală, 12MP ultrawide</li>
+                    </ul>
+                    <button><a href="#">Magazin 1</a></button>
+                    <button><a href="#">Magazin 2</a></button>
+                    <button class="favorite-button" onclick="toggleFavorite(this)">
+                        <span class="material-icons">favorite_border</span>
+                        Adaugă la favorite
+                    </button>
+                </div>
+                <div class="phone-card">
+                    <h3>Samsung Galaxy A13 (Buget)</h3>
+                    <img src="alt/sg-galaxy-a13-sm-a135-sm-a135flbhxsp-531833182-removebg-preview.png" alt="Samsung Galaxy A13">
+                    <ul class="specs">
+                        <li>Procesor: Exynos 850</li>
+                        <li>RAM: 4GB</li>
+                        <li>Stocare: 64GB/128GB</li>
+                        <li>Display: PLS LCD, 6.6", 60Hz</li>
+                        <li>Baterie: 5000 mAh</li>
+                        <li>Camera: 50MP principală, 5MP ultrawide</li>
+                    </ul>
+                    <button><a href="#">Magazin 1</a></button>
+                    <button><a href="#">Magazin 2</a></button>
+                    <button class="favorite-button" onclick="toggleFavorite(this)">
+                        <span class="material-icons">favorite_border</span>
+                        Adaugă la favorite
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function toggleFavorite(button) {
+            const icon = button.querySelector('.material-icons');
+            if (icon.textContent === 'favorite_border') {
+                icon.textContent = 'favorite';
+                button.classList.add('favorited');
+                // Aici poți adăuga logica pentru a salva telefonul în lista de favorite
+            } else {
+                icon.textContent = 'favorite_border';
+                button.classList.remove('favorited');
+                // Aici poți adăuga logica pentru a elimina telefonul din lista de favorite
+            }
+        }
+    </script>
+
+</body>
+</html>
